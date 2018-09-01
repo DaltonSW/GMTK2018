@@ -53,6 +53,7 @@
     <object>objects\obj_textSpawner</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_david</room>
     <room>rooms\rm_intro</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_tut_1</room>

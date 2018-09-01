@@ -143,7 +143,15 @@ y += vy;
 
 vy += 1;
 if(vx != 0){
-    vx -= (vx/abs(vx))*0.05;
+    if(floored){
+        vx -= (vx/abs(vx))*.8;
+        if(vx &lt; 0){
+            vx = 0;
+        }
+    }
+    else{
+        vx -= (vx/abs(vx))*0.05;
+    }
 }
 
 

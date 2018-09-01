@@ -42,7 +42,6 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
-    <object>objects\object12</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LookAtTheseShitTiles</room>
@@ -50,6 +49,7 @@
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
     <room>rooms\rm_test</room>
+    <room>rooms\gap_w_spikes</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

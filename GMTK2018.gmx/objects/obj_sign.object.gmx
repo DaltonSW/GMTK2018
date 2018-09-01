@@ -29,6 +29,8 @@
 
 message = "HI! I'm a sign! Activate my creation code to change the message";
 display_text = false;
+width = 175;
+height = 40;
 </string>
           </argument>
         </arguments>
@@ -88,7 +90,7 @@ if (d &gt; 40){
 
 draw_self();
 if (display_text){
-    draw_text(x, y, message);
+    draw_text_ext(x, y - height, message, 15, width);
 }
 </string>
           </argument>

@@ -16,6 +16,7 @@
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_redDoorClosed</sprite>
     <sprite>sprites\spr_redDoorOpen</sprite>
+    <sprite>sprites\spr_target</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,10 +31,10 @@
     <object>objects\obj_redDoor</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_test</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

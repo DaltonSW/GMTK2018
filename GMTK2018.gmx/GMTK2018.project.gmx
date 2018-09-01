@@ -21,6 +21,7 @@
     <sprite>sprites\spr_rock2</sprite>
     <sprite>sprites\spr_rock3</sprite>
     <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_rock</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,6 +37,7 @@
     <object>objects\obj_rock1</object>
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
+    <object>objects\obj_rock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LookAtTheseShitTiles</room>

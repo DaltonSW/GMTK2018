@@ -13,10 +13,14 @@
     <sprite>sprites\spr_pressedButton</sprite>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_sign</sprite>
-    <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_spikeTEST</sprite>
     <sprite>sprites\spr_redDoorClosed</sprite>
     <sprite>sprites\spr_redDoorOpen</sprite>
     <sprite>sprites\spr_target</sprite>
+    <sprite>sprites\spr_rock1</sprite>
+    <sprite>sprites\spr_rock2</sprite>
+    <sprite>sprites\spr_rock3</sprite>
+    <sprite>sprites\spr_spike</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -29,8 +33,12 @@
     <object>objects\obj_sign</object>
     <object>objects\obj_spike</object>
     <object>objects\obj_redDoor</object>
+    <object>objects\obj_rock1</object>
+    <object>objects\obj_rock2</object>
+    <object>objects\obj_rock3</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>

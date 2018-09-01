@@ -14,6 +14,8 @@
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_sign</sprite>
     <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_redDoorClosed</sprite>
+    <sprite>sprites\spr_redDoorOpen</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -25,6 +27,7 @@
     <object>objects\obj_door</object>
     <object>objects\obj_sign</object>
     <object>objects\obj_spike</object>
+    <object>objects\obj_redDoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

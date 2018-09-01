@@ -92,6 +92,13 @@ if place_meeting(x, y, obj_wall){
     stuck = true;
 }
 
+if place_meeting(x, y, obj_redDoor){
+    if(!obj_redDoor.open){
+        speed = 0;
+        stuck = true;
+    }
+}
+
 if distance_to_object(obj_player) &gt; 400 {
     instance_destroy();
 }

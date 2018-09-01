@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_pressedButton;
+obj_redDoor.sprite_index = spr_redDoorOpen;
+obj_redDoor.open = true;
 </string>
           </argument>
         </arguments>

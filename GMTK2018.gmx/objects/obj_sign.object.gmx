@@ -34,7 +34,7 @@ display_text = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,7 +51,17 @@ display_text = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>display_text = true;
+            <string>///Step
+
+d = distance_to_object(obj_player);
+
+if (d &lt;= 40){
+    display_text = true;
+}
+
+if (d &gt; 40){
+    display_text = false;
+}
 </string>
           </argument>
         </arguments>

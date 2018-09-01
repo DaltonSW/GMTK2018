@@ -34,6 +34,10 @@ vy=0;
 len=0;
 walled = false;
 floored = false;
+
+chainWidth = 0;
+chainLength = 0;
+chainAngle = 0;
 </string>
           </argument>
         </arguments>
@@ -193,6 +197,44 @@ vy = clamp(vy, -20, 20);
           <argument>
             <kind>1</kind>
             <string>room_restart();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Chain Code
+
+draw_sprite(spr_player, 0, x, y);
+
+if instance_exists(obj_grappleHead){
+    chainWidth = sprite_get_width(spr_chain); //Your chain sprite here
+    chainLength = point_distance(obj_player.x, obj_player.y, obj_grappleHead.x, obj_grappleHead.y); //Get the length of the entire chain.
+    chainAngle = degtorad(point_direction(obj_player.x, obj_player.y, obj_grappleHead.x, obj_grappleHead.y)); //get the angle of the chain and convert it from degrees to radians
+
+    for(var i = 0; i &lt; chainLength; i += chainWidth) //Run a loop so we draw every chain-segment
+    {
+        // This is the big one. We draw the chain segment at the proper rotated angle, with an x-coordinate multiplied by cos(chainAngle), and a y-coordinate multiplied by sin(chainAngle).
+        // They're both multiplied by cos/sin so the chain-segments each appear at the correct x/y coordinates, given by the angle of the chain.
+        draw_sprite_ext(spr_chain, 0, obj_player.x + ( cos(chainAngle) * i ) + ( cos(chainAngle) * (chainWidth/2) ), (obj_player.y - ( sin( chainAngle ) * i )) + (sin( chainAngle ) * (chainWidth/2) ), 1, 1, radtodeg(chainAngle), c_white, 1);
+    }
+}
 </string>
           </argument>
         </arguments>

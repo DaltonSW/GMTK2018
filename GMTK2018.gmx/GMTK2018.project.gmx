@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_playerTEST</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_grappleHeadTEST</sprite>
     <sprite>sprites\spr_unpressedButton</sprite>
@@ -24,6 +24,9 @@
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_grappleHead</sprite>
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_player_aim</sprite>
+    <sprite>sprites\spr_arm</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

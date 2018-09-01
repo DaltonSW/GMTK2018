@@ -56,20 +56,24 @@ len=0;
             <kind>1</kind>
             <string>///Super HOT Grapple Physics and Gravity (So HOT)
 
-if obj_grappleHead.stuck{
-    dx = mouse_x - x;
-    dy = mouse_y - y;
-    
-    len = sqrt(dx*dx + dy*dy);
-    
-    dx = (dx/len);
-    dy = (dy/len);
-    
-    vx = vx + dx * grapspeed;
-    vy = vy + dy * grapspeed;
-
+if mouse_check_button_pressed(mb_left){
     if !(instance_exists(obj_grappleHead)){
-        instance_create(x, y, obj_grappleHead)
+            instance_create(x, y, obj_grappleHead)
+        }
+}
+
+if instance_exists(obj_grappleHead){
+    if obj_grappleHead.stuck{
+        dx = obj_grappleHead.x - x;
+        dy = obj_grappleHead.y - y;
+        
+        len = sqrt(dx*dx + dy*dy);
+        
+        dx = (dx/len);
+        dy = (dy/len);
+        
+        vx = vx + dx * grapspeed;
+        vy = vy + dy * grapspeed;
     }
 }
 

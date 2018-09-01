@@ -88,8 +88,10 @@ if (d &gt; 40){
             <kind>1</kind>
             <string>///Draw
 
+
 draw_self();
 if (display_text){
+    draw_set_font(fnt_sign);
     draw_text_ext(x, y - height, message, 15, width);
 }
 </string>

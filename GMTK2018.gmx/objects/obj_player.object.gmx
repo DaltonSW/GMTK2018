@@ -66,7 +66,9 @@ len=0;
     vx = vx + dx * grapspeed;
     vy = vy + dy * grapspeed;
 
-    
+    if !(instance_exists(obj_grappleHead)){
+        instance_create(x, y, obj_grappleHead)
+    }
 }
 
 x += vx;

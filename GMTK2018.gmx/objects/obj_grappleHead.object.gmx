@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Creation
+            <string>///Creation
 
 stuck = false;
 
@@ -55,7 +55,9 @@ image_angle = dir;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_player.move = false;
+            <string>///Destroy
+
+obj_player.move = false;
 stuck = false;
 </string>
           </argument>
@@ -79,7 +81,9 @@ stuck = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if mouse_check_button_pressed(mb_right){
+            <string>///Step
+
+if mouse_check_button_pressed(mb_right){
     instance_destroy(self);
 }
 </string>
@@ -105,6 +109,32 @@ stuck = false;
           <argument>
             <kind>1</kind>
             <string>stuck = true;
+draw_line(obj_grappleHead.x, obj_grappleHead.y, obj_player.x, obj_player.y);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Outside room
+
+instance_destroy();
 </string>
           </argument>
         </arguments>

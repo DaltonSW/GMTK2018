@@ -12,6 +12,7 @@
     <sprite>sprites\spr_unpressedButton</sprite>
     <sprite>sprites\spr_pressedButton</sprite>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_sign</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,9 +22,11 @@
     <object>objects\obj_grappleHead</object>
     <object>objects\obj_button</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
+    <room>rooms\rm_level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

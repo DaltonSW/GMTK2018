@@ -152,7 +152,7 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>draw_sprite(spr_grappleHead, 0, x, y);
-draw_line_width(obj_grappleHead.x, obj_grappleHead.y, obj_player.x, obj_player.y, 7);
+
 </string>
           </argument>
         </arguments>

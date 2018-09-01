@@ -22,6 +22,7 @@
     <sprite>sprites\spr_rock3</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_rock</sprite>
+    <sprite>sprites\spr_chain</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,6 +41,7 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
+    <object>objects\object12</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LookAtTheseShitTiles</room>

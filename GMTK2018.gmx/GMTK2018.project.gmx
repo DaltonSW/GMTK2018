@@ -28,6 +28,10 @@
     <sprite>sprites\spr_arm</sprite>
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_coin</sprite>
+    <sprite>sprites\spr_earth1</sprite>
+    <sprite>sprites\spr_earth2</sprite>
+    <sprite>sprites\spr_earth3</sprite>
+    <sprite>sprites\spr_earth</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -55,6 +59,10 @@
     <object>objects\obj_arm</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_coin</object>
+    <object>objects\obj_earth1</object>
+    <object>objects\obj_earth2</object>
+    <object>objects\obj_earth3</object>
+    <object>objects\obj_earth</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
@@ -63,6 +71,7 @@
     <room>rooms\rm_tut_3</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

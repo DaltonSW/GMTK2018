@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_playerTEST</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_grappleHeadTEST</sprite>
     <sprite>sprites\spr_unpressedButton</sprite>
@@ -24,11 +24,18 @@
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_grappleHead</sprite>
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_player_aim</sprite>
+    <sprite>sprites\spr_arm</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_intro</font>
+    <font>fonts\fnt_sign</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -42,8 +49,11 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
+    <object>objects\obj_textSpawner</object>
+
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>

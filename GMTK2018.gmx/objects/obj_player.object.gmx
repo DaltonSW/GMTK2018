@@ -54,7 +54,9 @@ len=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if mouse_check_button(mb_left){
+            <string>///Super HOT Grapple Physics and Gravity (So HOT)
+
+if obj_grappleHead.stuck{
     dx = mouse_x - x;
     dy = mouse_y - y;
     

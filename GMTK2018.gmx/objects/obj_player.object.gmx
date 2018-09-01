@@ -25,10 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>velocity=0;
-grapspeed = 5;
+            <string>grapspeed = 5;
 dir=0;
-acceleration=1;
 dx=0;
 dy=0;
 vx=0;
@@ -65,14 +63,23 @@ len=0;
     dx = (dx/len);
     dy = (dy/len);
     
-    vx = vx + dx * grapspeed
-    vy = vy + dy * grapspeed
-    
-    x += vx;
-    y += vy;
-    
+    vx = vx + dx * grapspeed;
+    vy = vy + dy * grapspeed;
 
+    
 }
+
+x += vx;
+y += vy;
+
+vy += 1;
+if(vx != 0){
+    vx -= (vx/abs(vx))*0.05;
+}
+
+
+vx = clamp(vx, -20, 20);
+vy = clamp(vy, -20, 20);
 </string>
           </argument>
         </arguments>

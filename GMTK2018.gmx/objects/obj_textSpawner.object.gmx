@@ -104,7 +104,7 @@ room_goto_next();
             <kind>1</kind>
             <string>///Step
 
-if (alpha == 0) and (!increasing){
+if (alpha &lt;= 0) and (!increasing){
     instance_destroy();
 }
 
@@ -113,7 +113,7 @@ if (alpha &lt; 1) and (increasing){
 }
 
 if (alpha &lt;= 1) and (!increasing){
-    alpha -= alphaDelta;
+    alpha -= alphaDelta * 4;
 }
 
 if keyboard_check(vk_escape){

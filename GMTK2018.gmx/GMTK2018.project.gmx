@@ -25,7 +25,6 @@
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_grappleHead</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_player_aim</sprite>
     <sprite>sprites\spr_arm</sprite>
   </sprites>
   <backgrounds name="background">
@@ -49,16 +48,18 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
+    <object>objects\object12</object>
     <object>objects\obj_textSpawner</object>
+    <object>objects\obj_arm</object>
+
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
-    <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
     <room>rooms\rm_test</room>
-    <room>rooms\gap_w_spikes</room>
+    <room>rooms\rm_LookAtTheseShitTiles</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -31,7 +31,32 @@ message = "Super Fancy Test Message!";
 alpha = 0.02;
 alphaDelta = 0.02;
 increasing = true;
-alarm_set(0, room_speed*6);
+//alarm_set(0, room_speed*6);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Destroy
+
+room_goto_next();
 </string>
           </argument>
         </arguments>
@@ -79,12 +104,20 @@ alarm_set(0, room_speed*6);
             <kind>1</kind>
             <string>///Step
 
+if (alpha == 0) and (!increasing){
+    instance_destroy();
+}
+
 if (alpha &lt; 1) and (increasing){
     alpha += alphaDelta;
 }
 
 if (alpha &lt;= 1) and (!increasing){
     alpha -= alphaDelta;
+}
+
+if keyboard_check(vk_escape){
+    increasing = false;
 }
 
 
@@ -111,8 +144,9 @@ if (alpha &lt;= 1) and (!increasing){
           <argument>
             <kind>1</kind>
             <string>///Draw
-
-draw_text_ext_colour(x, y, message, 15, 200, c_white, c_white, c_white, c_white, alpha);
+draw_set_font(fnt_intro);
+draw_set_halign(fa_center);
+draw_text_ext_colour(x, y, message, 30, 750, c_white, c_white, c_white, c_white, alpha);
 </string>
           </argument>
         </arguments>

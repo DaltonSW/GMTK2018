@@ -27,7 +27,10 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_intro</font>
+    <font>fonts\fnt_sign</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -44,12 +47,12 @@
     <object>objects\obj_textSpawner</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_LookAtTheseShitTiles</room>
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
+    <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_test</room>
-    <room>rooms\rm_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

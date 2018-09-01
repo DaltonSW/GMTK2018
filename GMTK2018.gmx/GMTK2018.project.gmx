@@ -50,7 +50,6 @@
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
     <object>objects\obj_textSpawner</object>
-
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>

@@ -34,6 +34,7 @@ vy=0;
 len=0;
 walled = false;
 floored = false;
+nearestWall = obj_wall;
 </string>
           </argument>
         </arguments>
@@ -81,22 +82,26 @@ if instance_exists(obj_grappleHead){
 
 
 //For Collisions
-if place_meeting(x, y, obj_grappleHead) and obj_grappleHead.stuck{
+if position_meeting(x, y, obj_grappleHead) and obj_grappleHead.stuck{
     vx = 0;
     vy = 0;
 }
-if place_meeting(x + sprite_width/2, y, obj_wall){
+if position_meeting(x + sprite_width/2, y, obj_wall){
     if !walled{
         vx = 0;
         walled = true;
+        nearestWall = instance_nearest(x + sprite_width/2, y,obj_wall);
+        x = nearestWall.x - nearestWall.sprite_width/2 - sprite_width/2;
     }
     if vx &gt; 0{
         vx = 0;
     }
-} else if place_meeting(x - sprite_width/2, y, obj_wall){
+} else if position_meeting(x - sprite_width/2, y, obj_wall){
     if !walled{
         vx = 0;
         walled = true;
+        nearestWall = instance_nearest(x - sprite_width/2, y, obj_wall);
+        x = nearestWall.x + nearestWall.sprite_width/2 + sprite_width/2;
     }
     if vx &lt; 0{
         vx = 0;
@@ -105,18 +110,22 @@ if place_meeting(x + sprite_width/2, y, obj_wall){
     walled = false;
 }
 
-if place_meeting(x, y + sprite_height/2, obj_wall){
+if position_meeting(x, y + sprite_height/2, obj_wall){
     if !floored{
         vy = 0;
         floored = true;
+        nearestWall = instance_nearest(x, y + sprite_height/2,obj_wall);
+        y = nearestWall.y - nearestWall.sprite_height/2 - sprite_height/2;
     }
     if vy &gt; 0{
         vy = 0;
     }
-} else if place_meeting(x, y - sprite_height/2, obj_wall){
+} else if position_meeting(x, y - sprite_height/2, obj_wall){
     if !floored {
         vy = 0.5;
         floored = true;
+        nearestWall = instance_nearest(x, y - sprite_height/2,obj_wall);
+        y = nearestWall.y + nearestWall.sprite_height/2 + sprite_height/2;
     }
     if vy &lt; 0{
         vy = 0;
@@ -129,6 +138,8 @@ if place_meeting(x, y + sprite_height/2, obj_wall){
 //Moves the chara
 x += vx;
 y += vy;
+
+
 
 vy += 1;
 if(vx != 0){

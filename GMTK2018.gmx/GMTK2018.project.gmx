@@ -17,11 +17,15 @@
     <sprite>sprites\spr_redDoorClosed</sprite>
     <sprite>sprites\spr_redDoorOpen</sprite>
     <sprite>sprites\spr_target</sprite>
-    <sprite>sprites\spr_rock1</sprite>
-    <sprite>sprites\spr_rock2</sprite>
-    <sprite>sprites\spr_rock3</sprite>
+    <sprite>sprites\spr_ground1</sprite>
+    <sprite>sprites\spr_ground2</sprite>
+    <sprite>sprites\spr_ground3</sprite>
     <sprite>sprites\spr_spike</sprite>
-    <sprite>sprites\spr_rock</sprite>
+    <sprite>sprites\spr_ground</sprite>
+    <sprite>sprites\spr_earth1</sprite>
+    <sprite>sprites\spr_earth2</sprite>
+    <sprite>sprites\spr_earth3</sprite>
+    <sprite>sprites\spr_earth</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,10 +40,14 @@
     <object>objects\obj_sign</object>
     <object>objects\obj_spike</object>
     <object>objects\obj_redDoor</object>
-    <object>objects\obj_rock1</object>
-    <object>objects\obj_rock2</object>
-    <object>objects\obj_rock3</object>
-    <object>objects\obj_rock</object>
+    <object>objects\obj_ground1</object>
+    <object>objects\obj_ground2</object>
+    <object>objects\obj_ground3</object>
+    <object>objects\obj_ground</object>
+    <object>objects\obj_earth1</object>
+    <object>objects\obj_earth2</object>
+    <object>objects\obj_earth3</object>
+    <object>objects\obj_earth</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LookAtTheseShitTiles</room>

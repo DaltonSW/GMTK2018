@@ -30,7 +30,7 @@
 stuck = false;
 
 dir = point_direction(x, y, mouse_x, mouse_y);
-move_towards_point(mouse_x, mouse_y, 15);
+move_towards_point(mouse_x, mouse_y, 25);
 image_angle = dir;
 
 </string>
@@ -84,13 +84,19 @@ stuck = false;
             <string>///Step
 
 if mouse_check_button_pressed(mb_right){
-    instance_destroy(self);
+    instance_destroy();
 }
 
 if place_meeting(x, y, obj_wall){
     speed = 0;
     stuck = true;
 }
+
+if distance_to_object(obj_player) &gt; 400 {
+    instance_destroy();
+}
+
+
 </string>
           </argument>
         </arguments>

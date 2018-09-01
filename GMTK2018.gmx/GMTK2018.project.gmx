@@ -21,7 +21,6 @@
     <object>objects\obj_grappleHead</object>
     <object>objects\obj_button</object>
     <object>objects\obj_door</object>
-    <object>objects\obj_rope</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

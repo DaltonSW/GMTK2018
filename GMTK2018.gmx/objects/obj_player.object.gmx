@@ -201,10 +201,13 @@ obj_arm.x=x;
 obj_arm.y=y;
  
  
-if mouse_check_button(mb_left) &amp;&amp; obj_grappleHead.stuck==false{
-    //sprite_index=spr_player_aim; 
-    obj_arm.image_angle=point_direction(obj_arm.x, obj_arm.y, mouse_x, mouse_y)+90;   
-    obj_arm.depth=-1;
+if mouse_check_button(mb_left){
+    if instance_exists(obj_grappleHead){
+        //sprite_index=spr_player_aim; 
+        obj_arm.image_angle=point_direction(obj_arm.x, obj_arm.y, mouse_x, mouse_y)+90;   
+        obj_arm.depth=-1;
+    }
+    
 }
 
 else{

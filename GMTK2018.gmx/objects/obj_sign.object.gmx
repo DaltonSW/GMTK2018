@@ -87,7 +87,7 @@ if (d &gt; 40){
           <argument>
             <kind>1</kind>
             <string>///Draw
-
+draw_set_font(fnt_sign);
 draw_self();
 if (display_text){
     draw_text_ext(x, y - height, message, 15, width);

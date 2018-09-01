@@ -54,11 +54,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
-    <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_LookAtTheseShitTiles</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

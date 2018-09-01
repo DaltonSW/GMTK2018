@@ -46,11 +46,7 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
-<<<<<<< HEAD
-    <object>objects\object12</object>
-=======
     <object>objects\obj_textSpawner</object>
->>>>>>> Intro
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>

@@ -8,7 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_grappleHead</sprite>
+    <sprite>sprites\spr_grappleHeadTEST</sprite>
     <sprite>sprites\spr_unpressedButton</sprite>
     <sprite>sprites\spr_pressedButton</sprite>
     <sprite>sprites\spr_door</sprite>
@@ -23,6 +23,7 @@
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_chain</sprite>
+    <sprite>sprites\spr_grappleHead</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

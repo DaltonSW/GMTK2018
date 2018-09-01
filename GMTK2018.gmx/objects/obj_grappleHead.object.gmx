@@ -31,8 +31,9 @@ stuck = false;
 
 dir = point_direction(x, y, mouse_x, mouse_y);
 move_towards_point(mouse_x, mouse_y, 25);
-image_angle = dir;
+//image_angle = dir;
 
+image_angle=point_direction(x, y, mouse_x, mouse_y);
 </string>
           </argument>
         </arguments>
@@ -152,7 +153,6 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>draw_sprite(spr_grappleHead, 0, x, y);
-
 </string>
           </argument>
         </arguments>

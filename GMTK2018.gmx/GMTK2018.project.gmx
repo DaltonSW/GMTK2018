@@ -9,6 +9,9 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_grappleHead</sprite>
+    <sprite>sprites\spr_unpressedButton</sprite>
+    <sprite>sprites\spr_pressedButton</sprite>
+    <sprite>sprites\spr_door</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,6 +19,8 @@
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_grappleHead</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

@@ -32,6 +32,8 @@ dy=0;
 vx=0;
 vy=0;
 len=0;
+walled = false;
+floored = false;
 </string>
           </argument>
         </arguments>
@@ -75,6 +77,46 @@ if instance_exists(obj_grappleHead){
         vx = vx + dx * grapspeed;
         vy = vy + dy * grapspeed;
     }
+}
+
+if place_meeting(x + sprite_width/2, y, obj_wall){
+    if !walled{
+        vx = 0;
+        walled = true;
+    }
+    if vx &gt; 0{
+        vx = 0;
+    }
+} else if place_meeting(x - sprite_width/2, y, obj_wall){
+    if !walled{
+        vx = 0;
+        walled = true;
+    }
+    if vx &lt; 0{
+        vx = 0;
+    }
+} else{
+    walled = false;
+}
+
+if place_meeting(x, y + sprite_height/2, obj_wall){
+    if !floored{
+        vy = 0;
+        floored = true;
+    }
+    if vy &gt; 0{
+        vy = 0;
+    }
+} else if place_meeting(x, y - sprite_height/2, obj_wall){
+    if !floored {
+        vy = 0.5;
+        floored = true;
+    }
+    if vy &lt; 0{
+        vy = 0;
+    }
+} else{
+    floored = false;
 }
 
 x += vx;

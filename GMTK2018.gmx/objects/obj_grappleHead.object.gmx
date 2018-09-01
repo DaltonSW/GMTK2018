@@ -86,30 +86,11 @@ stuck = false;
 if mouse_check_button_pressed(mb_right){
     instance_destroy(self);
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_wall">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>stuck = true;
-draw_line(obj_grappleHead.x, obj_grappleHead.y, obj_player.x, obj_player.y);
+
+if place_meeting(x, y, obj_wall){
+    speed = 0;
+    stuck = true;
+}
 </string>
           </argument>
         </arguments>

@@ -42,7 +42,11 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
+<<<<<<< HEAD
     <object>objects\object12</object>
+=======
+    <object>objects\obj_textSpawner</object>
+>>>>>>> d5cff059d327f1ef63935de13ac94a87302e0253
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LookAtTheseShitTiles</room>

@@ -34,7 +34,6 @@ vy=0;
 len=0;
 walled = false;
 floored = false;
-nearestWall = obj_wall;
 
 chainWidth = 0;
 chainLength = 0;
@@ -94,51 +93,62 @@ if position_meeting(x, y, obj_grappleHead) and obj_grappleHead.stuck{
     vx = 0;
     vy = 0;
 }
-if position_meeting(x + sprite_width/2, y, obj_wall){
-    if !walled{
+
+var sprite_center_to_x_edge = sprite_width / 2;
+var sprite_right_x = x + sprite_center_to_x_edge;
+var sprite_left_x = x - sprite_center_to_x_edge;
+if position_meeting(sprite_right_x, y, obj_wall) {
+    if !walled {
         vx = 0;
         walled = true;
-        nearestWall = instance_nearest(x + sprite_width/2, y,obj_wall);
-        x = nearestWall.x - nearestWall.sprite_width/2 - sprite_width/2;
+        var nearestWall = instance_nearest(sprite_right_x, y, obj_wall);
+        var x_distance_between_centers = nearestWall.sprite_width/2 + sprite_center_to_x_edge;
+        x = nearestWall.x - x_distance_between_centers;
     }
-    if vx &gt; 0{
+    if vx &gt; 0 {
         vx = 0;
     }
-} else if position_meeting(x - sprite_width/2, y, obj_wall){
-    if !walled{
+} else if position_meeting(sprite_left_x, y, obj_wall) {
+    if !walled {
         vx = 0;
         walled = true;
-        nearestWall = instance_nearest(x - sprite_width/2, y, obj_wall);
-        x = nearestWall.x + nearestWall.sprite_width/2 + sprite_width/2;
+        var nearestWall = instance_nearest(sprite_left_x, y, obj_wall);
+        var x_distance_between_centers = nearestWall.sprite_width/2 + sprite_center_to_x_edge;
+        x = nearestWall.x + x_distance_between_centers;
     }
-    if vx &lt; 0{
+    if vx &lt; 0 {
         vx = 0;
     }
-} else{
+} else {
     walled = false;
 }
 
-if position_meeting(x, y + sprite_height/2, obj_wall){
-    if !floored{
+var sprite_center_to_y_edge = sprite_height / 2;
+var sprite_top_y = y + sprite_center_to_y_edge;
+var sprite_bottom_y = y - sprite_center_to_y_edge;
+if position_meeting(x, sprite_top_y, obj_wall) {
+    if !floored {
         vy = 0;
         floored = true;
-        nearestWall = instance_nearest(x, y + sprite_height/2,obj_wall);
-        y = nearestWall.y - nearestWall.sprite_height/2 - sprite_height/2;
+        var nearestWall = instance_nearest(x, sprite_top_y, obj_wall);
+        var y_distance_between_centers = nearestWall.sprite_height / 2 + sprite_center_to_y_edge;
+        y = nearestWall.y - y_distance_between_centers;
     }
-    if vy &gt; 0{
+    if vy &gt; 0 {
         vy = 0;
     }
-} else if position_meeting(x, y - sprite_height/2, obj_wall){
+} else if position_meeting(x, sprite_bottom_y, obj_wall) {
     if !floored {
         vy = 0.5;
         floored = true;
-        nearestWall = instance_nearest(x, y - sprite_height/2,obj_wall);
-        y = nearestWall.y + nearestWall.sprite_height/2 + sprite_height/2;
+        var nearestWall = instance_nearest(x, sprite_bottom_y, obj_wall);
+        var y_distance_between_centers = nearestWall.sprite_height / 2 + sprite_center_to_y_edge;
+        y = nearestWall.y + y_distance_between_centers;
     }
-    if vy &lt; 0{
+    if vy &lt; 0 {
         vy = 0;
     }
-} else{
+} else {
     floored = false;
 }
 
@@ -150,14 +160,13 @@ y += vy;
 
 
 vy += 1;
-if(vx != 0){
-    if(floored){
+if vx != 0 {
+    if floored {
         vx -= (vx/abs(vx))*.8;
         if(vx &lt; 0){
             vx = 0;
         }
-    }
-    else{
+    } else {
         vx -= (vx/abs(vx))*0.05;
     }
 }

@@ -39,6 +39,8 @@ chainWidth = 0;
 chainLength = 0;
 chainAngle = 0;
 
+coins = 0;
+
 instance_create(0,0,obj_arm);
 </string>
           </argument>

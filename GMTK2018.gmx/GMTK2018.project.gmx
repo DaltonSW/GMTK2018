@@ -25,7 +25,6 @@
     <sprite>sprites\spr_chain</sprite>
     <sprite>sprites\spr_grappleHead</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_player_aim</sprite>
     <sprite>sprites\spr_arm</sprite>
   </sprites>
   <backgrounds name="background">
@@ -51,6 +50,7 @@
     <object>objects\obj_rock</object>
     <object>objects\object12</object>
     <object>objects\obj_textSpawner</object>
+    <object>objects\obj_arm</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>

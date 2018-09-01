@@ -22,7 +22,9 @@
     <sprite>sprites\spr_rock3</sprite>
     <sprite>sprites\spr_spike</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>

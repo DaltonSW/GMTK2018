@@ -52,6 +52,16 @@
   </views>
   <instances>
     <instance objName="obj_text" x="512" y="64" name="inst_A0747268" locked="0" code="text = &quot;Level Select&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="824" y="480" name="inst_DE69316B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="620" y="480" name="inst_1A7F24A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="416" y="480" name="inst_16D0C080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="212" y="480" name="inst_6496E599" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="8" y="480" name="inst_36707781" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="4" y="256" name="inst_819FCDE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="208" y="256" name="inst_D3DFE1E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="412" y="256" name="inst_68204DEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="616" y="256" name="inst_9F36D427" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="820" y="256" name="inst_289CA25E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

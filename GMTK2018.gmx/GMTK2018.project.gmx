@@ -73,6 +73,7 @@
     <object>objects\obj_levelSelect</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_intro</room>
     <room>rooms\rm_tut_1</room>
@@ -86,7 +87,6 @@
     <room>rooms\rm_purpLevel</room>
     <room>rooms\rm_david</room>
     <room>rooms\rm_test</room>
-    <room>rooms\rm_levelSelect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

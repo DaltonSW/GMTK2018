@@ -29,8 +29,8 @@
 
 message = "HI! I'm a sign! Activate my creation code to change the message";
 display_text = false;
-width = 175;
-height = 40;
+width = 120;
+height = 60;
 </string>
           </argument>
         </arguments>

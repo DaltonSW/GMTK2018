@@ -73,14 +73,14 @@
     <room>rooms\rm_menu</room>
     <room>rooms\ImDying</room>
     <room>rooms\rm_intro</room>
-    <room>rooms\rm_purpLevel</room>
-    <room>rooms\rm_daltonIsBetterThanPatrick</room>
-    <room>rooms\Hlecc</room>
-    <room>rooms\gap_w_spikes</room>
-    <room>rooms\rm_david</room>
     <room>rooms\rm_tut_1</room>
     <room>rooms\rm_tut_2</room>
     <room>rooms\rm_tut_3</room>
+    <room>rooms\gap_w_spikes</room>
+    <room>rooms\Hlecc</room>
+    <room>rooms\rm_daltonIsBetterThanPatrick</room>
+    <room>rooms\rm_purpLevel</room>
+    <room>rooms\rm_david</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
   </rooms>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grapspeed = 2.5;
+            <string>grapspeed = 1;
 dir=0;
 dx=0;
 dy=0;

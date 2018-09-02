@@ -78,7 +78,6 @@
     <object>objects\obj_text</object>
     <object>objects\obj_textSpawner</object>
     <object>objects\obj_arm</object>
-    <object>objects\obj_coin</object>
     <object>objects\obj_earth1</object>
     <object>objects\obj_earth2</object>
     <object>objects\obj_earth3</object>
@@ -86,6 +85,7 @@
     <object>objects\obj_menuBox</object>
     <object>objects\obj_levelSelect</object>
     <object>objects\obj_musicControl</object>
+    <object>objects\obj_coin</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_music</room>
@@ -101,11 +101,7 @@
     <room>rooms\rm_level5</room>
     <room>rooms\rm_level6</room>
     <room>rooms\rm_level7</room>
-    <room>rooms\rm_end</room>
-    <room>rooms\rm_returnToMenu</room>
     <room>rooms\rm_levelSelect</room>
-    <room>rooms\rm_LookAtTheseShitTiles</room>
-    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

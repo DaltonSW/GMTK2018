@@ -29,7 +29,7 @@
 
 message = "Super Fancy Test Message!";
 alpha = 0.02;
-alphaDelta = 0.02;
+alphaDelta = 0.004;
 increasing = true;
 //alarm_set(0, room_speed*6);
 </string>

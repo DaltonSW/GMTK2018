@@ -31,14 +31,20 @@
     <sprite>sprites\spr_earth2</sprite>
     <sprite>sprites\spr_earth3</sprite>
     <sprite>sprites\spr_earth</sprite>
+    <sprite>sprites\spr_menuBox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_intro</font>
+    <font>fonts\fnt_title</font>
     <font>fonts\fnt_sign</font>
+    <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -53,7 +59,7 @@
     <object>objects\obj_rock2</object>
     <object>objects\obj_rock3</object>
     <object>objects\obj_rock</object>
-    <object>objects\object12</object>
+    <object>objects\obj_text</object>
     <object>objects\obj_textSpawner</object>
     <object>objects\obj_arm</object>
     <object>objects\obj_coin</object>
@@ -61,8 +67,10 @@
     <object>objects\obj_earth2</object>
     <object>objects\obj_earth3</object>
     <object>objects\obj_earth</object>
+    <object>objects\obj_menuBox</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_intro</room>
     <room>rooms\rm_purpLevel</room>
     <room>rooms\rm_daltonIsBetterThanPatrick</room>

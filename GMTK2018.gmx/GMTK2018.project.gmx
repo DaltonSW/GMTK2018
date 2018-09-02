@@ -32,7 +32,16 @@
     <sprite>sprites\spr_earth3</sprite>
     <sprite>sprites\spr_earth</sprite>
     <sprite>sprites\spr_menuBox</sprite>
+    <sprite>sprites\spr_tut1</sprite>
+    <sprite>sprites\spr_tut2</sprite>
+    <sprite>sprites\spr_tut3</sprite>
     <sprite>sprites\spr_level1</sprite>
+    <sprite>sprites\spr_level2</sprite>
+    <sprite>sprites\spr_level3</sprite>
+    <sprite>sprites\spr_level4</sprite>
+    <sprite>sprites\spr_level5</sprite>
+    <sprite>sprites\spr_level6</sprite>
+    <sprite>sprites\spr_level7</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_title);
 draw_set_halign(fa_center);
-draw_text_colour(x, y, text, c_red, c_blue, c_green, c_yellow, 1);
+draw_text_colour(x, y, text, c_white, c_white, c_white, c_white, 1);
 </string>
           </argument>
         </arguments>

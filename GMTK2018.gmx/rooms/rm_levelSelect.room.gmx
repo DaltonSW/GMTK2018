@@ -52,6 +52,16 @@
   </views>
   <instances>
     <instance objName="obj_text" x="512" y="64" name="inst_A0747268" locked="0" code="text = &quot;Level Select&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="4" y="544" name="inst_F5E4EFD9" locked="0" code="sprite_index = spr_level3;&#xA;pictured_level = 6;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="820" y="544" name="inst_3D06459A" locked="0" code="sprite_index = spr_level7;&#xA;pictured_level = 10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="616" y="544" name="inst_993D2C88" locked="0" code="sprite_index = spr_level6;&#xA;pictured_level = 9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="412" y="544" name="inst_64C6FB99" locked="0" code="sprite_index = spr_level5;&#xA;pictured_level = 8;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="208" y="544" name="inst_9FF69AA2" locked="0" code="sprite_index = spr_level4;&#xA;pictured_level = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="820" y="256" name="inst_A2D6703B" locked="0" code="sprite_index = spr_level2;&#xA;pictured_level = 5;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="616" y="256" name="inst_7E6078D3" locked="0" code="sprite_index = spr_level1;&#xA;pictured_level = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="412" y="256" name="inst_12B62B64" locked="0" code="sprite_index = spr_tut3;&#xA;pictured_level = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="208" y="256" name="inst_983FAA7C" locked="0" code="sprite_index = spr_tut2;&#xA;pictured_level = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelSelect" x="4" y="256" name="inst_4C7D0CCC" locked="0" code="sprite_index = spr_tut1;&#xA;pictured_level = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

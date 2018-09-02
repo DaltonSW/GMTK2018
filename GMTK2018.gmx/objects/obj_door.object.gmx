@@ -25,7 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto_next()
+            <string>if(obj_musicControl.fromLevelSelect){
+    room_goto(rm_levelSelect);
+}
+
+else{
+    room_goto_next()
+}
+
 </string>
           </argument>
         </arguments>

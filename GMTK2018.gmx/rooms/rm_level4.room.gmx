@@ -186,7 +186,6 @@
     <instance objName="obj_spike" x="992" y="608" name="inst_FEDCDCFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_spike" x="992" y="640" name="inst_AE1E93CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_spike" x="992" y="672" name="inst_437BD99A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-<<<<<<< HEAD
     <instance objName="obj_earth3" x="192" y="96" name="inst_11F09EB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="192" y="96" name="inst_F892E83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="192" y="96" name="inst_A182470C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -195,9 +194,7 @@
     <instance objName="obj_earth3" x="672" y="96" name="inst_FD8D6B6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="256" y="448" name="inst_6580E452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="224" y="448" name="inst_FDF3E20D" locked="0" code="rm = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-=======
     <instance objName="obj_coin" x="224" y="448" name="inst_FDF3E20D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
->>>>>>> 9d6b8a0a19531bc7287a35b2431b512d0b36c48f
     <instance objName="obj_spike" x="768" y="352" name="inst_3D68C326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_earth3" x="0" y="256" name="inst_5E814399" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock1" x="32" y="256" name="inst_59041664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

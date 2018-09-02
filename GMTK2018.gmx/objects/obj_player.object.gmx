@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grapspeed = 5;
+            <string>grapspeed = 2.5;
 dir=0;
 dx=0;
 dy=0;
@@ -163,7 +163,7 @@ y += vy;
 
 
 
-vy += 1;
+vy += 0.25;
 if vx != 0 {
     if floored {
         vx -= (vx/abs(vx))*.8;
@@ -171,13 +171,13 @@ if vx != 0 {
             vx = 0;
         }
     } else {
-        vx -= (vx/abs(vx))*0.05;
+        vx -= (vx/abs(vx))*0.025;
     }
 }
 
 
-vx = clamp(vx, -20, 20);
-vy = clamp(vy, -20, 20);
+vx = clamp(vx, -10, 10);
+vy = clamp(vy, -10, 10);
 </string>
           </argument>
         </arguments>

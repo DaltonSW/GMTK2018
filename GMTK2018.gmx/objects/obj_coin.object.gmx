@@ -8,6 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
     <event eventtype="1" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,6 +26,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>rm = -1;
             <string>audio_play_sound(snd_coin, 10, false);
 </string>
           </argument>
@@ -50,7 +52,7 @@
             <kind>1</kind>
             <string>///Collision w/ Player
 
-obj_player.coins += 1;
+obj_musicControl.coins[rm] = true;
 instance_destroy();
 </string>
           </argument>

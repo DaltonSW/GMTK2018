@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>startPlay=true;
+
+coins = 0;
+
+fromLevelSelect = false;
 </string>
           </argument>
         </arguments>

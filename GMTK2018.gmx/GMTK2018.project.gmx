@@ -73,19 +73,34 @@
     <object>objects\obj_levelSelect</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_intro</room>
+<<<<<<< HEAD
     <room>rooms\rm_tut1</room>
     <room>rooms\rm_tut2</room>
     <room>rooms\rm_tut3</room>
     <room>rooms\rm_level1</room>
     <room>rooms\rm_level2</room>
+=======
+    <room>rooms\rm_tut_1</room>
+    <room>rooms\rm_tut_2</room>
+    <room>rooms\rm_tut_3</room>
+    <room>rooms\Gay</room>
+    <room>rooms\ImDying</room>
+    <room>rooms\gap_w_spikes</room>
+    <room>rooms\Hlecc</room>
+>>>>>>> e38233e6cb506ed0fea7ae46bf4382efdce774e3
     <room>rooms\rm_daltonIsBetterThanPatrick</room>
     <room>rooms\Hlecc</room>
     <room>rooms\ImDying</room>
     <room>rooms\rm_purpLevel</room>
     <room>rooms\rm_david</room>
+<<<<<<< HEAD
     <room>rooms\rm_levelSelect</room>
+=======
+    <room>rooms\rm_test</room>
+>>>>>>> e38233e6cb506ed0fea7ae46bf4382efdce774e3
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

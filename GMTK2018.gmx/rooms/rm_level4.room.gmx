@@ -291,6 +291,7 @@
     <instance objName="obj_earth3" x="672" y="96" name="inst_FD8D6B6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="256" y="448" name="inst_6580E452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="768" y="352" name="inst_3D68C326" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_coin" x="224" y="448" name="inst_0A6A8EF4" locked="0" code="rm = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

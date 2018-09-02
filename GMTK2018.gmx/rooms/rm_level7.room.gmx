@@ -323,6 +323,7 @@
     <instance objName="obj_rock2" x="1504" y="160" name="inst_93E55FE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock1" x="1856" y="256" name="inst_84AFE011" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock2" x="1888" y="256" name="inst_8C3B2CC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="32" y="288" name="inst_F0C158D2" locked="0" code="rm = 5;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

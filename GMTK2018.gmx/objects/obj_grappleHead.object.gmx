@@ -29,6 +29,7 @@
 
 stuck = false;
 
+playSound = true;
 dir = point_direction(x, y, mouse_x, mouse_y);
 move_towards_point(mouse_x, mouse_y, 20);
 image_angle = dir;
@@ -89,6 +90,10 @@ if mouse_check_button_pressed(mb_right){
 if place_meeting(x, y, obj_wall){
     speed = 0;
     stuck = true;
+    if playSound{
+        audio_play_sound(snd_grappleHit, 10, false);
+    }
+    playSound = false;
 }
 
 if place_meeting(x, y, obj_redDoor){

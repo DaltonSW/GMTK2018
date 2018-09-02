@@ -8,7 +8,11 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+<<<<<<< HEAD
     <event eventtype="0" enumb="0">
+=======
+    <event eventtype="1" enumb="0">
+>>>>>>> 9d6b8a0a19531bc7287a35b2431b512d0b36c48f
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +29,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
             <string>rm = -1;
+=======
+            <string>audio_play_sound(snd_coin, 10, false);
+>>>>>>> 9d6b8a0a19531bc7287a35b2431b512d0b36c48f
 </string>
           </argument>
         </arguments>

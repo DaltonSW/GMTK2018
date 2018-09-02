@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\msc_theme</sound>
+    <sound>sound\snd_Door</sound>
+    <sound>sound\snd_grappleHit</sound>
+    <sound>sound\snd_coin</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_playerTEST</sprite>
@@ -101,6 +104,7 @@
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

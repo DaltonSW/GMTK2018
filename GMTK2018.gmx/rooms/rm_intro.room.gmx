@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_textSpawner" x="512" y="96" name="inst_AFBDB1FD" locked="0" code="message = &quot;You are Jason. A 22 year old man, living in the year 20XX.###&#xA;Deciding you're bored with your current life, you decide to hop aboard the most recent trend sweeping the nation: Trading your legs for a SICK hookshot!###&#xA;Now that you've got this SICK hookshot, what should you do it it?###&#xA;Go spelunking for treasure of course!###&#xA;Explore the cave, collect treasure, have fun!###&#xA;(Press ESC to get started)&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_textSpawner" x="512" y="96" name="inst_AFBDB1FD" locked="0" code="message = &quot;You are Jason. A 22 year old man, living in the year 20XX.###&#xA;Deciding you're bored with your current life, you decide to hop aboard the most recent trend sweeping the nation: Trading your legs for a SICK hookshot!###&#xA;Now that you've got this SICK hookshot, what should you do it it?###&#xA;Go spelunking for treasure of course!###&#xA;Explore the cave, collect treasure, have fun!###&#xA;(Press ESC to get started)&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

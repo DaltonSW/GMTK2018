@@ -101,6 +101,7 @@
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

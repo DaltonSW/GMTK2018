@@ -63,6 +63,7 @@
     <object>objects\obj_earth</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Hlecc</room>
     <room>rooms\rm_daltonIsBetterThanPatrick</room>
     <room>rooms\gap_w_spikes</room>
     <room>rooms\rm_purpLevel</room>

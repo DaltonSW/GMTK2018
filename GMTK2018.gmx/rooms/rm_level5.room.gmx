@@ -121,7 +121,7 @@
     <instance objName="obj_spike" x="672" y="352" name="inst_52CC430A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_spike" x="736" y="352" name="inst_A438503B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_spike" x="704" y="320" name="inst_89F88CCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coin" x="800" y="352" name="inst_1068B356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="800" y="352" name="inst_1068B356" locked="0" code="rm = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="0" y="0" name="inst_FFCB33C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="0" y="32" name="inst_28C2F910" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth3" x="0" y="64" name="inst_180729A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

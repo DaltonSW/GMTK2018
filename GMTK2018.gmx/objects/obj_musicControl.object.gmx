@@ -27,7 +27,12 @@
             <kind>1</kind>
             <string>startPlay=true;
 
-coins = 0;
+coins[0] = false;
+coins[1] = false;
+coins[2] = false;
+coins[3] = false;
+coins[4] = false;
+coins[5] = false;
 
 fromLevelSelect = false;
 </string>

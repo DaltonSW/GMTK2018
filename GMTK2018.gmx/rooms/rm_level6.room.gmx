@@ -119,7 +119,7 @@
     <instance objName="obj_rock" x="928" y="768" name="inst_DC110FE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock1" x="992" y="768" name="inst_F8D3AD5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth2" x="1024" y="768" name="inst_0FD22A30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="608" y="432" name="inst_7D595FFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="608" y="448" name="inst_7D595FFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="160" y="128" name="inst_C7BEEC13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="256" y="128" name="inst_41447FFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_earth" x="160" y="160" name="inst_2F6AA003" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

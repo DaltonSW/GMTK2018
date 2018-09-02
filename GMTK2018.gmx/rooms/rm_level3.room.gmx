@@ -60,7 +60,7 @@
     <instance objName="obj_player" x="128" y="720" name="inst_5FE61498" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock1" x="128" y="160" name="inst_5E412FC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_redDoor" x="112" y="80" name="inst_D55FF07C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="160" y="112" name="inst_29E716E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="160" y="128" name="inst_29E716E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="224" y="752" name="inst_64A40A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="512" y="736" name="inst_5ED3B24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="544" y="736" name="inst_BEA9D71D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

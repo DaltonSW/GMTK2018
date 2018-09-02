@@ -73,7 +73,11 @@
     <object>objects\obj_levelSelect</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_intro</room>
+    <room>rooms\rm_tut1</room>
+    <room>rooms\rm_tut2</room>
+    <room>rooms\rm_tut3</room>
     <room>rooms\rm_level1</room>
     <room>rooms\rm_level2</room>
     <room>rooms\rm_level3</room>
@@ -83,11 +87,7 @@
     <room>rooms\rm_level7</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_LookAtTheseShitTiles</room>
-    <room>rooms\rm_menu</room>
     <room>rooms\rm_test</room>
-    <room>rooms\rm_tut1</room>
-    <room>rooms\rm_tut2</room>
-    <room>rooms\rm_tut3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

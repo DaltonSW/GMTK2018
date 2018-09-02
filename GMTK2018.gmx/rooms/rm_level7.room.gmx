@@ -66,7 +66,7 @@
     <instance objName="obj_rock" x="1888" y="768" name="inst_553C321A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="1984" y="768" name="inst_58197E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="64" y="736" name="inst_74257E9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="80" y="176" name="inst_D181C74C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="96" y="192" name="inst_D181C74C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="64" y="320" name="inst_0DCEBC09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="160" y="320" name="inst_6651141F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rock" x="160" y="224" name="inst_FD4E6A8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

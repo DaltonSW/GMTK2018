@@ -8,6 +8,7 @@ switch (menu_option)
     
     case 1:
     {
+        room_goto(rm_levelSelect);
         break;
     }
     
